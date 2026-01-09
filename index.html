@@ -1,318 +1,867 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>NordVidi — Engineering, Manufacturing Coordination & Project Delivery</title>
-  <meta name="description" content="NordVidi helps energy and industrial clients with engineering design, manufacturing coordination, production support, and project execution — from concept to commissioning." />
+  <head>
+    <title>Decisive Motherly Narwhal</title>
+    <meta property="og:title" content="Decisive Motherly Narwhal" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="NordVidi" />
-  <meta property="og:description" content="Engineering design, manufacturing coordination, production support and project delivery." />
-  <meta property="og:type" content="website" />
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: "Source Sans 3";
+        font-size: 1rem;
+      }
 
-  <link rel="icon" href="images/logo.png" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: 0.01em;
+        line-height: 1.6;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
 
-<body>
-  <header class="header">
-    <div class="container header__inner">
-      <a class="brand" href="#top" aria-label="NordVidi home">
-        <img class="brand__logo" src="images/logo.png" alt="NordVidi logo" />
-        <span class="brand__name">NordVidi</span>
-      </a>
+        fill: var(--color-on-surface);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
 
-      <nav class="nav">
-        <a href="#services">Services</a>
-        <a href="#process">Process</a>
-        <a href="#about">About</a>
-        <a class="btn btn--small" href="#contact">Contact</a>
-      </nav>
+      <div class="home-container1">
+        <navigation-wrapper class="navigation-wrapper">
+          <!--Navigation component-->
+          <div class="navigation-container1">
+            <nav class="navigation-root">
+              <div class="navigation-container">
+                <img
+                  alt="image"
+                  src="public/logo-200h.png"
+                  class="navigation-image"
+                />
+                <div class="navigation-desktop-menu">
+                  <a href="contact.html">
+                    <div class="btn-sm btn-primary btn">
+                      <span>Contact</span>
+                    </div>
+                  </a>
+                </div>
+                <button
+                  id="navigation-mobile-toggle"
+                  aria-label="Open Menu"
+                  aria-expanded="false"
+                  class="navigation-mobile-toggle"
+                >
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M4 6h16M4 12h16M4 18h16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </nav>
+            <div
+              id="navigation-mobile-overlay"
+              aria-hidden="true"
+              class="navigation-mobile-overlay"
+            >
+              <div class="navigation-mobile-header">
+                <a href="index.html">
+                  <div
+                    aria-label="NordVidi Homepage"
+                    class="navigation-logo-link"
+                  >
+                    <div class="navigation-logo-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M13 3v7h6l-8 11v-7H5z"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span class="section-title">NordVidi</span>
+                  </div>
+                </a>
+                <button
+                  id="navigation-mobile-close"
+                  aria-label="Close Menu"
+                  class="navigation-mobile-close"
+                >
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1zm-5.5-3.5l-5 5m0-5l5 5"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="navigation-mobile-content">
+                <div class="navigation-mobile-links">
+                  <a href="index.html">
+                    <div class="navigation-mobile-link"><span>Home</span></div>
+                  </a>
+                  <details class="navigation-mobile-details">
+                    <summary class="navigation-mobile-summary">
+                      <span>Services</span>
+                      <svg
+                        width="20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        class="navigation-chevron"
+                      >
+                        <path
+                          d="m6 9l6 6l6-6"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </summary>
+                    <div class="navigation-mobile-sublinks">
+                      <a href="design.html">
+                        <div class="navigation-mobile-sublink">
+                          <span>Genset Design</span>
+                        </div>
+                      </a>
+                      <a href="manufacturing.html">
+                        <div class="navigation-mobile-sublink">
+                          <span>Manufacturing</span>
+                        </div>
+                      </a>
+                      <a href="consulting.html">
+                        <div class="navigation-mobile-sublink">
+                          <span>Technical Consulting</span>
+                        </div>
+                      </a>
+                    </div>
+                  </details>
+                  <a href="projects.html">
+                    <div class="navigation-mobile-link">
+                      <span>Projects</span>
+                    </div>
+                  </a>
+                  <a href="about.html">
+                    <div class="navigation-mobile-link">
+                      <span>About Us</span>
+                    </div>
+                  </a>
+                  <a href="contact.html">
+                    <div class="btn-lg navigation-mobile-cta btn-primary btn">
+                      <span>Get a Quote</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="navigation-container2">
+              <div class="navigation-container3">
+                <script defer="" data-name="navigation-logic">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      const mobileToggle = document.getElementById("navigation-mobile-toggle")
+                      const mobileClose = document.getElementById("navigation-mobile-close")
+                      const mobileOverlay = document.getElementById("navigation-mobile-overlay")
+                      const body = document.body
+
+                      const openMenu = () => {
+                        mobileOverlay.classList.add("is-active")
+                        mobileOverlay.setAttribute("aria-hidden", "false")
+                        mobileToggle.setAttribute("aria-expanded", "true")
+                        body.style.overflow = "hidden"
+                      }
+
+                      const closeMenu = () => {
+                        mobileOverlay.classList.remove("is-active")
+                        mobileOverlay.setAttribute("aria-hidden", "true")
+                        mobileToggle.setAttribute("aria-expanded", "false")
+                        body.style.overflow = ""
+                      }
+
+                      mobileToggle.addEventListener("click", openMenu)
+                      mobileClose.addEventListener("click", closeMenu)
+
+                      mobileOverlay.addEventListener("click", (e) => {
+                        if (e.target.tagName === "A" && !e.target.classList.contains("navigation-mobile-summary")) {
+                          closeMenu()
+                        }
+                      })
+
+                      document.addEventListener("keydown", (e) => {
+                        if (e.key === "Escape" && mobileOverlay.classList.contains("is-active")) {
+                          closeMenu()
+                        }
+                      })
+
+                      const dropdownTrigger = document.querySelector(".navigation-dropdown-trigger")
+                      if (dropdownTrigger) {
+                        dropdownTrigger.addEventListener("click", (e) => {
+                          const isExpanded = dropdownTrigger.getAttribute("aria-expanded") === "true"
+                          dropdownTrigger.setAttribute("aria-expanded", !isExpanded)
+                        })
+                      }
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </navigation-wrapper>
+        <main class="homepage-wrapper">
+          <section class="hero-section">
+            <div class="hero-media-container">
+              <video
+                src="https://videos.pexels.com/video-files/17688228/17688228-hd_1920_1080_30fps.mp4"
+                loop="true"
+                muted="true"
+                poster="https://images.pexels.com/videos/17688228/pictures/preview-0.jpeg"
+                autoplay="true"
+                playsinline="true"
+                class="hero-video"
+              ></video>
+              <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content-wrapper">
+              <div class="hero-text-block">
+                <h1 class="hero-title home-hero-title">
+                  Genset Equipment Engineering &amp; Manufacturing Support
+                </h1>
+                <p class="home-hero-subtitle hero-subtitle">
+                  Design, manufacturing coordination and technical consulting
+                  for power generation equipment.
+                </p>
+                <div class="hero-cta-group">
+                  <div class="btn-lg btn-primary btn">
+                    <span>Consult Our Experts</span>
+                  </div>
+                  <a href="#features">
+                    <div class="btn-lg btn-outline btn">
+                      <span>View Capabilities</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="features" class="features-section">
+            <div class="features-container">
+              <header class="features-header">
+                <h2 class="section-title">Core Engineering Capabilities</h2>
+                <p class="section-subtitle">
+                  Comprehensive support for critical power infrastructure and
+                  industrial genset applications.
+                </p>
+              </header>
+              <div class="features-grid">
+                <div class="feature-card">
+                  <div class="feature-icon-box">
+                    <svg
+                      fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <h3 class="feature-title">Engineering &amp; Design</h3>
+                  <p class="section-content">
+                    Full engineering and design of genset equipment, including
+                    mechanical, electrical, power switchgear, and control
+                    systems for genset and plant applications.
+                  </p>
+                </div>
+                <div class="feature-card">
+                  <div class="feature-icon-box">
+                    <svg
+                      fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <g>
+                        <path d="M14 17H5M19 7h-9"></path>
+                        <circle r="3" cx="17" cy="17"></circle>
+                        <circle r="3" cx="7" cy="7"></circle>
+                      </g>
+                    </svg>
+                  </div>
+                  <h3 class="feature-title">Manufacturing &amp; Production</h3>
+                  <p class="section-content">
+                    Manufacturing and assembly of engineered genset equipment
+                    and related systems.
+                  </p>
+                </div>
+                <div class="feature-card">
+                  <div class="feature-icon-box">
+                    <svg
+                      fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M16 5H3m8 7H3m13 7H3m12.5-9.5l5 5m0-5l-5 5"
+                      ></path>
+                    </svg>
+                  </div>
+                  <h3 class="feature-title">Production Management</h3>
+                  <p class="section-content">
+                    End-to-end management of the manufacturing process, from
+                    engineered design to completed product.
+                  </p>
+                </div>
+                <div class="feature-card">
+                  <div class="feature-icon-box">
+                    <svg
+                      fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg>
+                  </div>
+                  <h3 class="feature-title">Technical Consulting</h3>
+                  <p class="section-content">
+                    Technical consulting for genset and power generation
+                    projects, including design review, optimization, and
+                    feasibility assessment.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="process-section">
+            <div class="process-wrapper">
+              <h2 class="section-title">Our End-to-End Workflow</h2>
+              <div class="process-stepper">
+                <div class="process-step">
+                  <div class="step-number"><span>01</span></div>
+                  <div class="step-content">
+                    <h3 class="step-label">Design</h3>
+                    <p class="section-content">
+                      Defining technical requirements and overall system concept
+                      based on project needs.
+                    </p>
+                  </div>
+                </div>
+                <div class="process-step">
+                  <div class="step-number"><span>02</span></div>
+                  <div class="step-content">
+                    <h3 class="step-label">Engineering</h3>
+                    <p class="section-content">
+                      Detailed engineering of mechanical, electrical, power, and
+                      control systems for genset and power plant applications.
+                    </p>
+                  </div>
+                </div>
+                <div class="process-step">
+                  <div class="step-number"><span>03</span></div>
+                  <div class="step-content">
+                    <h3 class="step-label">Manufacturing</h3>
+                    <p class="section-content">
+                      Manufacturing and production of engineered equipment,
+                      including process coordination and quality control.
+                    </p>
+                  </div>
+                </div>
+                <div class="process-step">
+                  <div class="step-number"><span>04</span></div>
+                  <div class="step-content">
+                    <h3 class="step-label">Delivery</h3>
+                    <p class="section-content">
+                      Delivery of a completed product, including documentation,
+                      testing coordination, and handover support.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="cases-section">
+            <cases-wrapper-wrapper
+              class="cases-wrapper-wrapper"
+              rootclassname="cases-wrapperundefined"
+            >
+              <!--CasesWrapper component-->
+              <div
+                class="cases-wrapper-thq-cases-wrapper-elm cases-wrapperroot-class-name"
+              >
+                <div class="cases-wrapper-thq-cases-intro-elm">
+                  <h2 class="section-title">
+                    <fragment class="home-fragment7">
+                      <span class="home-text22">Genset Applications</span>
+                    </fragment>
+                  </h2>
+                  <p class="section-content">
+                    <fragment class="home-fragment8">
+                      <span class="home-text23">
+                        Engineered power solutions across diverse industrial and
+                        critical infrastructure sectors.
+                      </span>
+                    </fragment>
+                  </p>
+                </div>
+                <div class="cases-wrapper-thq-cases-grid-elm">
+                  <div class="application-tile">
+                    <img
+                      alt="Data center server infrastructure"
+                      src="https://www.reuters.com/resizer/v2/ESNSXIFGA5KHFEKN3JBTT77QII.jpg?auth=c733f7cda1cc2d7908b7e418318b10d022ec5897d7bf0ea1d5c9f45b038b39d0"
+                      class="application-image"
+                    />
+                    <div class="application-content">
+                      <h3
+                        class="cases-wrapper-thq-case-title-elm1 application-title"
+                      >
+                        <fragment class="home-fragment1">
+                          <span class="home-text16">
+                            Data Center Backup Power
+                          </span>
+                        </fragment>
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="application-tile">
+                    <img
+                      alt="Industrial manufacturing engine"
+                      src="https://images.pexels.com/photos/10290625/pexels-photo-10290625.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
+                      class="application-image"
+                    />
+                    <div class="application-content">
+                      <h3
+                        class="cases-wrapper-thq-case-title-elm2 application-title"
+                      >
+                        <fragment class="home-fragment2">
+                          <span class="home-text17">
+                            Industrial &amp; Manufacturing Facilities
+                          </span>
+                        </fragment>
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="application-tile">
+                    <img
+                      alt="Top view of huge industrial tanks at factory facility"
+                      src="https://images.pexels.com/photos/6048400/pexels-photo-6048400.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
+                      class="application-image"
+                    />
+                    <div class="application-content">
+                      <h3
+                        class="cases-wrapper-thq-case-title-elm3 application-title"
+                      >
+                        <fragment class="home-fragment3">
+                          <span class="home-text18">
+                            Infrastructure &amp; Utilities
+                          </span>
+                        </fragment>
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="application-tile">
+                    <img
+                      alt="Technicians working on a power generator"
+                      src="https://images.pexels.com/photos/18816918/pexels-photo-18816918.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
+                      class="application-image"
+                    />
+                    <div class="application-content">
+                      <h3
+                        class="cases-wrapper-thq-case-title-elm4 application-title"
+                      >
+                        <fragment class="home-fragment4">
+                          <span class="home-text19">
+                            Remote &amp; Off-Grid Power Systems
+                          </span>
+                        </fragment>
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="application-tile">
+                    <img
+                      alt="Diesel parallel generator system"
+                      src="https://www.csemag.com/wp-content/uploads/2025/03/CSE2405_MAG_GENERATOR_03-Diesel_Parallel_slider-e1716481324116.jpg"
+                      class="application-image"
+                    />
+                    <div class="application-content">
+                      <h3
+                        class="cases-wrapper-thq-case-title-elm5 application-title"
+                      >
+                        <fragment class="home-fragment5">
+                          <span class="home-text20">
+                            Critical Facilities &amp; Emergency Power
+                          </span>
+                        </fragment>
+                      </h3>
+                    </div>
+                  </div>
+                  <a
+                    href="https://upload.wikimedia.org/wikipedia/commons/c/ca/Turbogenerator01.jpg"
+                  >
+                    <div
+                      class="cases-wrapper-thq-case-card-elm6 application-tile"
+                    >
+                      <img
+                        alt="Industrial containerized generator equipment and power machinery"
+                        src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Turbogenerator01.jpg"
+                        class="application-image"
+                      />
+                      <div
+                        class="cases-wrapper-thq-case-overlay-elm6 application-content"
+                      >
+                        <h3
+                          class="cases-wrapper-thq-case-title-elm6 application-title"
+                        >
+                          <fragment class="home-fragment6">
+                            <span class="home-text21">
+                              Custom Power Generation Solutions
+                            </span>
+                          </fragment>
+                        </h3>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </cases-wrapper-wrapper>
+          </section>
+        </main>
+        <div class="home-container2">
+          <div class="home-container3">
+            <script defer="" data-name="nordvidi-interactions">
+              document.addEventListener('DOMContentLoaded', function() {
+                (function(){
+                  // Subtle scroll reveal for features
+                  const featureCards = document.querySelectorAll(".feature-card")
+                  const observerOptions = {
+                    threshold: 0.1,
+                    rootMargin: "0px 0px -50px 0px",
+                  }
+
+                  const revealObserver = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                      if (entry.isIntersecting) {
+                        entry.target.style.opacity = "1"
+                        entry.target.style.transform = "translateY(0)"
+                      }
+                    })
+                  }, observerOptions)
+
+                  featureCards.forEach((card) => {
+                    card.style.opacity = "0"
+                    card.style.transform = "translateY(20px)"
+                    card.style.transition = "all 0.4s ease-out"
+                    revealObserver.observe(card)
+                  })
+
+                  // Simple stat counter animation
+                  const stats = document.querySelectorAll(".stat-value")
+                  const statObserver = new IntersectionObserver(
+                    (entries) => {
+                      entries.forEach((entry) => {
+                        if (entry.isIntersecting) {
+                          const target = entry.target
+                          const countTo = parseFloat(target.innerText.replace(/[^0-9.]/g, ""))
+                          const suffix = target.innerText.replace(/[0-9.]/g, "")
+                          let current = 0
+                          const duration = 1500
+                          const stepTime = 20
+                          const increment = countTo / (duration / stepTime)
+
+                          const timer = setInterval(() => {
+                            current += increment
+                            if (current >= countTo) {
+                              target.innerText = countTo + suffix
+                              clearInterval(timer)
+                            } else {
+                              target.innerText = Math.floor(current) + suffix
+                            }
+                          }, stepTime)
+                          statObserver.unobserve(target)
+                        }
+                      })
+                    },
+                    { threshold: 0.5 }
+                  )
+
+                  stats.forEach((stat) => statObserver.observe(stat))
+                })()
+              });
+            </script>
+          </div>
+        </div>
+        <footer-wrapper class="footer-wrapper">
+          <!--Footer component-->
+          <div class="footer-container1">
+            <footer class="footer-section">
+              <div class="footer-container">
+                <div class="footer-grid">
+                  <div class="footer-brand-column footer-column">
+                    <div class="footer-logo-wrapper">
+                      <span class="footer-logo-text">NordVidi</span>
+                    </div>
+                    <p class="footer-description section-content">
+                      Engineering and manufacturing of genset equipment,
+                      including production management and technical consulting
+                      for power generation projects.
+                    </p>
+                    <div class="footer-social-links">
+                      <a href="#">
+                        <div aria-label="LinkedIn" class="footer-social-icon">
+                          <svg
+                            width="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <g
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            >
+                              <path
+                                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6M2 9h4v12H2z"
+                              ></path>
+                              <circle r="2" cx="4" cy="4"></circle>
+                            </g>
+                          </svg>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="footer-column"></div>
+                  <div
+                    class="footer-thq-footer-column-elm3 footer-column"
+                  ></div>
+                  <div class="footer-column">
+                    <h3 class="section-subtitle footer-heading">
+                      Get in Touch
+                    </h3>
+                    <div class="footer-contact-info">
+                      <div class="footer-contact-item">
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          class="footer-contact-icon"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path
+                              d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                            ></path>
+                            <circle r="3" cx="12" cy="10"></circle>
+                          </g>
+                        </svg>
+                        <span class="section-content">Riga, Latvia</span>
+                      </div>
+                      <div class="footer-contact-item">
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          class="footer-contact-icon"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path
+                              d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                            ></path>
+                            <rect
+                              x="2"
+                              y="4"
+                              rx="2"
+                              width="20"
+                              height="16"
+                            ></rect>
+                          </g>
+                        </svg>
+                        <span class="section-content">
+                          peteris.goldsteins@nordvidi.eu
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-bottom">
+                <div class="footer-legal">
+                  <span class="section-content footer-copyright">
+                    © 2026 NordVidi Engineering. All rights reserved.
+                  </span>
+                </div>
+              </div>
+              <div aria-hidden="true" class="footer-decorative-bg">
+                <img
+                  alt="true"
+                  src="https://images.pexels.com/photos/18816918/pexels-photo-18816918.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
+                  class="footer-bg-image"
+                />
+                <div class="footer-bg-overlay"></div>
+              </div>
+            </footer>
+            <div class="footer-container2">
+              <div class="footer-container3">
+                <script defer="" data-name="footer-interactions">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      const footerForm = document.querySelector(".footer-form")
+                      if (footerForm) {
+                        footerForm.addEventListener("submit", (e) => {
+                          const emailInput = footerForm.querySelector(".footer-input")
+                          if (emailInput.checkValidity()) {
+                            const submitBtn = footerForm.querySelector(".footer-submit-btn")
+                            const originalContent = submitBtn.innerHTML
+
+                            submitBtn.style.backgroundColor = "var(--color-accent)"
+                            submitBtn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>'
+
+                            setTimeout(() => {
+                              submitBtn.style.backgroundColor = ""
+                              submitBtn.innerHTML = originalContent
+                              footerForm.reset()
+                            }, 3000)
+                          }
+                        })
+                      }
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </footer-wrapper>
+        <a href="https://play.teleporthq.io/signup">
+          <div aria-label="Sign up to TeleportHQ" class="home-container4">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 19 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="home-icon21"
+            >
+              <path
+                d="M9.1017 4.64355H2.17867C0.711684 4.64355 -0.477539 5.79975 -0.477539 7.22599V13.9567C-0.477539 15.3829 0.711684 16.5391 2.17867 16.5391H9.1017C10.5687 16.5391 11.7579 15.3829 11.7579 13.9567V7.22599C11.7579 5.79975 10.5687 4.64355 9.1017 4.64355Z"
+                fill="#B23ADE"
+              ></path>
+              <path
+                d="M10.9733 12.7878C14.4208 12.7878 17.2156 10.0706 17.2156 6.71886C17.2156 3.3671 14.4208 0.649963 10.9733 0.649963C7.52573 0.649963 4.73096 3.3671 4.73096 6.71886C4.73096 10.0706 7.52573 12.7878 10.9733 12.7878Z"
+                fill="#FF5C5C"
+              ></path>
+              <path
+                d="M17.7373 13.3654C19.1497 14.1588 19.1497 15.4634 17.7373 16.2493L10.0865 20.5387C8.67402 21.332 7.51855 20.6836 7.51855 19.0968V10.5141C7.51855 8.92916 8.67402 8.2807 10.0865 9.07221L17.7373 13.3654Z"
+                fill="#2874DE"
+              ></path>
+            </svg>
+            <span class="home-text24">Built in TeleportHQ</span>
+          </div>
+        </a>
+      </div>
+      <link
+        rel="canonical"
+        href="https://decisive-motherly-narwhal-rwpjtr.teleporthq.app/"
+      />
     </div>
-  </header>
-
-  <main id="top">
-    <!-- HERO -->
-    <section class="hero">
-      <div class="container hero__grid">
-        <div class="hero__content">
-          <p class="badge">Engineering & Project Delivery</p>
-          <h1>From concept to commissioning — delivered.</h1>
-          <p class="lead">
-            NordVidi supports energy and industrial clients with <strong>engineering design</strong>,
-            <strong>manufacturing coordination</strong>, <strong>production support</strong> and
-            <strong>project execution</strong>. Clear scope, reliable delivery, no drama.
-          </p>
-
-          <div class="hero__cta">
-            <a class="btn" href="#contact">Get in touch</a>
-            <a class="btn btn--ghost" href="#services">See services</a>
-          </div>
-
-          <div class="hero__stats">
-            <div class="stat">
-              <div class="stat__num">EU</div>
-              <div class="stat__label">Based / International</div>
-            </div>
-            <div class="stat">
-              <div class="stat__num">B2B</div>
-              <div class="stat__label">Energy & Industry</div>
-            </div>
-            <div class="stat">
-              <div class="stat__num">Hands-on</div>
-              <div class="stat__label">Practical execution</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="hero__card">
-          <div class="card">
-            <h3>What you get</h3>
-            <ul class="checklist">
-              <li>Engineering packages & specifications</li>
-              <li>Supplier & manufacturing coordination</li>
-              <li>Production follow-up & QA mindset</li>
-              <li>Project delivery support (FAT/SAT, documentation)</li>
-            </ul>
-
-            <div class="divider"></div>
-
-            <p class="muted">
-              Need a fast landing page now — and a bigger site later? This setup scales cleanly.
-            </p>
-          </div>
-
-          <div class="mini">
-            <div class="mini__icon">⚡</div>
-            <div class="mini__text">
-              <strong>Energy components?</strong><br />
-              If you want, we can position NordVidi also around power systems & energy efficiency.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero__bg" aria-hidden="true"></div>
-    </section>
-
-    <!-- SERVICES -->
-    <section id="services" class="section">
-      <div class="container">
-        <div class="section__head">
-          <h2>Services</h2>
-          <p class="muted">
-            Pick what you need — from a focused engineering task to end-to-end delivery support.
-          </p>
-        </div>
-
-        <div class="grid cards">
-          <article class="card">
-            <h3>Engineering & Design</h3>
-            <p>
-              Concept development, technical specifications, layouts, documentation and design support
-              aligned with manufacturing reality and compliance requirements.
-            </p>
-            <ul class="bullets">
-              <li>Concept & technical scope definition</li>
-              <li>Specifications, BOM support, documentation</li>
-              <li>Design reviews & risk spotting</li>
-            </ul>
-          </article>
-
-          <article class="card">
-            <h3>Manufacturing Coordination</h3>
-            <p>
-              Bridge between engineering, suppliers and the workshop. Clear communication,
-              realistic timelines, fewer surprises.
-            </p>
-            <ul class="bullets">
-              <li>Supplier communication & alignment</li>
-              <li>Change control & technical clarifications</li>
-              <li>Schedule and delivery follow-up</li>
-            </ul>
-          </article>
-
-          <article class="card">
-            <h3>Production Support</h3>
-            <p>
-              Hands-on support during production: troubleshooting, documentation checks,
-              and practical problem solving on the floor.
-            </p>
-            <ul class="bullets">
-              <li>Production follow-up & QA mindset</li>
-              <li>Assembly readiness & integration checks</li>
-              <li>Test preparation support</li>
-            </ul>
-          </article>
-
-          <article class="card">
-            <h3>Project Execution & Delivery</h3>
-            <p>
-              Support from planning to handover: FAT/SAT preparation, commissioning coordination,
-              documentation, and client communication.
-            </p>
-            <ul class="bullets">
-              <li>Delivery planning & coordination</li>
-              <li>FAT/SAT support and checklists</li>
-              <li>Commissioning & handover support</li>
-            </ul>
-          </article>
-
-          <article class="card card--accent">
-            <h3>Advisory / Consulting</h3>
-            <p>
-              If you want it: independent consulting on technical choices, delivery risk, and
-              execution strategy — especially around energy projects.
-            </p>
-            <ul class="bullets">
-              <li>Technical due diligence</li>
-              <li>Scope definition & tender support</li>
-              <li>Energy & power project advisory</li>
-            </ul>
-            <p class="muted small">
-              (If you decide you don’t want “consulting” in positioning, we can remove this card in 10 seconds.)
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>Documentation & Compliance Support</h3>
-            <p>
-              Practical documentation that matches the delivered product — plus support in aligning
-              to EU requirements where applicable.
-            </p>
-            <ul class="bullets">
-              <li>Manuals & technical documentation review</li>
-              <li>Handover packages</li>
-              <li>Basic compliance alignment support</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROCESS -->
-    <section id="process" class="section section--alt">
-      <div class="container">
-        <div class="section__head">
-          <h2>How I work</h2>
-          <p class="muted">Simple, transparent and delivery-focused.</p>
-        </div>
-
-        <div class="grid steps">
-          <div class="step">
-            <div class="step__num">1</div>
-            <h3>Define scope</h3>
-            <p>Clarify deliverables, constraints, risks and success criteria. No vague promises.</p>
-          </div>
-          <div class="step">
-            <div class="step__num">2</div>
-            <h3>Plan & align</h3>
-            <p>Timeline, stakeholders, suppliers and responsibilities aligned early.</p>
-          </div>
-          <div class="step">
-            <div class="step__num">3</div>
-            <h3>Execute</h3>
-            <p>Coordinate, unblock, and keep quality and schedule under control.</p>
-          </div>
-          <div class="step">
-            <div class="step__num">4</div>
-            <h3>Deliver</h3>
-            <p>Structured handover: documentation, tests, punch-lists and closure.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about" class="section">
-      <div class="container about">
-        <div class="about__text">
-          <h2>About NordVidi</h2>
-          <p>
-            NordVidi is an engineering and delivery partner for energy and industrial projects.
-            The focus is on practical execution — bridging design, manufacturing and commissioning
-            so projects move forward and finish cleanly.
-          </p>
-          <p class="muted">
-            Want the positioning more “engineering house” or more “project delivery”? Tell me and I’ll tune the wording.
-          </p>
-        </div>
-
-        <div class="about__card card">
-          <h3>Typical outcomes</h3>
-          <ul class="checklist">
-            <li>Clear technical scope and fewer late changes</li>
-            <li>Better supplier alignment and faster decision loops</li>
-            <li>More predictable production & delivery</li>
-            <li>Cleaner handover and fewer commissioning surprises</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section section--alt">
-      <div class="container contact">
-        <div class="contact__left">
-          <h2>Contact</h2>
-          <p class="muted">
-            Send a short message and I’ll reply with next steps (scope, timeline, and a simple plan).
-          </p>
-
-          <div class="contact__boxes">
-            <div class="contact__box">
-              <div class="contact__label">Email</div>
-              <!-- ieliec savu e-pastu -->
-              <a class="contact__value" href="mailto:hello@nordvidi.eu">hello@nordvidi.eu</a>
-            </div>
-            <div class="contact__box">
-              <div class="contact__label">Location</div>
-              <div class="contact__value">Latvia (remote & on-site)</div>
-            </div>
-          </div>
-        </div>
-
-        <form class="form card" action="#" method="post" onsubmit="return false;">
-          <h3>Quick message</h3>
-          <label>
-            <span>Name</span>
-            <input type="text" name="name" placeholder="Your name" />
-          </label>
-          <label>
-            <span>Email</span>
-            <input type="email" name="email" placeholder="you@company.com" />
-          </label>
-          <label>
-            <span>Message</span>
-            <textarea name="message" rows="5" placeholder="What do you need help with?"></textarea>
-          </label>
-          <button class="btn" type="submit" title="This demo form does not send yet">
-            Send (demo)
-          </button>
-          <p class="muted small">
-            This form is currently a placeholder. If you want it to actually send emails, I’ll wire it to Formspree/Getform in 2 minutes.
-          </p>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container footer__inner">
-      <div class="footer__left">
-        <img class="footer__logo" src="images/logo.png" alt="NordVidi logo" />
-        <span>© <span id="year"></span> NordVidi</span>
-      </div>
-      <div class="footer__right">
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
-</body>
+  </body>
 </html>

@@ -1,0 +1,18 @@
+.navigation-container1 {
+  display: contents;
+}
+ 
+.navigation-image {
+  width: 80px;
+  height: 78px;
+  object-fit: cover;
+  margin-right: auto;
+}
+ 
+.navigation-container2 {
+  display: none;
+}
+ 
+.navigation-container3 {
+  display: contents;
+}

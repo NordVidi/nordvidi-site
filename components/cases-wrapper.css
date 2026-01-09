@@ -1,0 +1,143 @@
+.cases-wrapper-thq-cases-wrapper-elm {
+  gap: var(--spacing-4xl);
+  margin: 0 auto;
+  display: flex;
+  padding: var(--spacing-4xl);
+  position: relative;
+  max-width: var(--content-max-width);
+  flex-direction: column;
+}
+ 
+.cases-wrapper-thq-cases-intro-elm {
+  gap: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+}
+ 
+.cases-wrapper-thq-cases-grid-elm {
+  gap: var(--spacing-2xl);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+ 
+.cases-wrapper-thq-case-title-elm1 {
+  text-align: center;
+}
+ 
+.cases-wrapper-thq-case-title-elm2 {
+  text-align: center;
+}
+ 
+.cases-wrapper-thq-case-title-elm3 {
+  text-align: center;
+}
+ 
+.cases-wrapper-thq-case-title-elm4 {
+  text-align: center;
+}
+ 
+.cases-wrapper-thq-case-title-elm5 {
+  text-align: center;
+}
+ 
+.cases-wrapper-thq-case-card-elm6 {
+  text-decoration: none;
+}
+ 
+.cases-wrapper-thq-case-overlay-elm6 {
+  align-items: center;
+  justify-content: center;
+}
+ 
+.cases-wrapper-thq-case-title-elm6 {
+  text-align: center;
+}
+ 
+.cases-wrapper-fragment1 {
+  display: contents;
+}
+ 
+.cases-wrapper-text1 {
+  display: inline-block;
+}
+ 
+.cases-wrapper-fragment2 {
+  display: contents;
+}
+ 
+.cases-wrapper-text2 {
+  display: inline-block;
+}
+ 
+.cases-wrapper-fragment3 {
+  display: contents;
+}
+ 
+.cases-wrapper-text3 {
+  display: inline-block;
+}
+ 
+.cases-wrapper-fragment4 {
+  display: contents;
+}
+ 
+.cases-wrapper-text4 {
+  display: inline-block;
+  text-align: center;
+}
+ 
+.cases-wrapper-fragment5 {
+  display: contents;
+}
+ 
+.cases-wrapper-text5 {
+  display: inline-block;
+}
+ 
+.cases-wrapper-fragment6 {
+  display: contents;
+}
+ 
+.cases-wrapper-text6 {
+  display: inline-block;
+}
+ 
+.cases-wrapper-fragment7 {
+  display: contents;
+}
+ 
+.cases-wrapper-text7 {
+  display: inline-block;
+}
+ 
+.cases-wrapper-fragment8 {
+  display: contents;
+}
+ 
+.cases-wrapper-text8 {
+  display: inline-block;
+}
+ 
+.cases-wrapperroot-class-name {
+  display: contents;
+}
+ 
+@media(max-width: 991px) {
+  .cases-wrapper-thq-cases-wrapper-elm {
+    padding: var(--spacing-2xl);
+  }
+  .cases-wrapper-thq-cases-grid-elm {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+ 
+@media(max-width: 767px) {
+  .cases-wrapper-thq-cases-wrapper-elm {
+    gap: var(--spacing-2xl);
+    padding: var(--spacing-lg);
+  }
+  .cases-wrapper-thq-cases-grid-elm {
+    gap: var(--spacing-xl);
+    grid-template-columns: 1fr;
+  }
+}

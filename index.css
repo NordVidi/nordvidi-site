@@ -1,0 +1,302 @@
+.navigation-wrapper {
+  display: contents;
+}
+ 
+.navigation-container1 {
+  display: contents;
+}
+ 
+.navigation-image {
+  width: 80px;
+  height: 78px;
+  object-fit: cover;
+  margin-right: auto;
+}
+ 
+.navigation-container2 {
+  display: none;
+}
+ 
+.navigation-container3 {
+  display: contents;
+}
+
+.cases-wrapper-wrapper {
+  display: contents;
+}
+ 
+.cases-wrapper-thq-cases-wrapper-elm {
+  gap: var(--spacing-4xl);
+  margin: 0 auto;
+  display: flex;
+  padding: var(--spacing-4xl);
+  position: relative;
+  max-width: var(--content-max-width);
+  flex-direction: column;
+}
+ 
+.cases-wrapper-thq-cases-intro-elm {
+  gap: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+}
+ 
+.cases-wrapper-thq-cases-grid-elm {
+  gap: var(--spacing-2xl);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+ 
+.cases-wrapper-thq-case-title-elm1 {
+  text-align: center;
+}
+ 
+.cases-wrapper-thq-case-title-elm2 {
+  text-align: center;
+}
+ 
+.cases-wrapper-thq-case-title-elm3 {
+  text-align: center;
+}
+ 
+.cases-wrapper-thq-case-title-elm4 {
+  text-align: center;
+}
+ 
+.cases-wrapper-thq-case-title-elm5 {
+  text-align: center;
+}
+ 
+.cases-wrapper-thq-case-card-elm6 {
+  text-decoration: none;
+}
+ 
+.cases-wrapper-thq-case-overlay-elm6 {
+  align-items: center;
+  justify-content: center;
+}
+ 
+.cases-wrapper-thq-case-title-elm6 {
+  text-align: center;
+}
+ 
+.home-fragment4 {
+  display: contents;
+}
+ 
+.home-text19 {
+  display: inline-block;
+}
+ 
+.home-fragment6 {
+  display: contents;
+}
+ 
+.home-text21 {
+  display: inline-block;
+}
+ 
+.home-fragment5 {
+  display: contents;
+}
+ 
+.home-text20 {
+  display: inline-block;
+}
+ 
+.home-fragment2 {
+  display: contents;
+}
+ 
+.home-text17 {
+  display: inline-block;
+  text-align: center;
+}
+ 
+.home-fragment8 {
+  display: contents;
+}
+ 
+.home-text23 {
+  display: inline-block;
+}
+ 
+.home-fragment3 {
+  display: contents;
+}
+ 
+.home-text18 {
+  display: inline-block;
+}
+ 
+.home-fragment1 {
+  display: contents;
+}
+ 
+.home-text16 {
+  display: inline-block;
+}
+ 
+.home-fragment7 {
+  display: contents;
+}
+ 
+.home-text22 {
+  display: inline-block;
+}
+ 
+.cases-wrapperroot-class-name {
+  display: contents;
+}
+ 
+@media(max-width: 991px) {
+  .cases-wrapper-thq-cases-wrapper-elm {
+    padding: var(--spacing-2xl);
+  }
+  .cases-wrapper-thq-cases-grid-elm {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+ 
+@media(max-width: 767px) {
+  .cases-wrapper-thq-cases-wrapper-elm {
+    gap: var(--spacing-2xl);
+    padding: var(--spacing-lg);
+  }
+  .cases-wrapper-thq-cases-grid-elm {
+    gap: var(--spacing-xl);
+    grid-template-columns: 1fr;
+  }
+}
+
+.footer-wrapper {
+  display: contents;
+}
+ 
+.footer-container1 {
+  display: contents;
+}
+ 
+.footer-thq-footer-column-elm3 {
+  width: 183px;
+  height: 237px;
+}
+ 
+.footer-container2 {
+  display: none;
+}
+ 
+.footer-container3 {
+  display: contents;
+}
+
+.home-container1 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.home-fragment1 {
+  display: contents;
+}
+ 
+.home-text16 {
+  display: inline-block;
+}
+ 
+.home-fragment2 {
+  display: contents;
+}
+ 
+.home-text17 {
+  display: inline-block;
+  text-align: center;
+}
+ 
+.home-fragment3 {
+  display: contents;
+}
+ 
+.home-text18 {
+  display: inline-block;
+}
+ 
+.home-fragment4 {
+  display: contents;
+}
+ 
+.home-text19 {
+  display: inline-block;
+}
+ 
+.home-fragment5 {
+  display: contents;
+}
+ 
+.home-text20 {
+  display: inline-block;
+}
+ 
+.home-fragment6 {
+  display: contents;
+}
+ 
+.home-text21 {
+  display: inline-block;
+}
+ 
+.home-fragment7 {
+  display: contents;
+}
+ 
+.home-text22 {
+  display: inline-block;
+}
+ 
+.home-fragment8 {
+  display: contents;
+}
+ 
+.home-text23 {
+  display: inline-block;
+}
+ 
+.home-container2 {
+  display: none;
+}
+ 
+.home-container3 {
+  display: contents;
+}
+ 
+.home-container4 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.home-icon21 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.home-text24 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
